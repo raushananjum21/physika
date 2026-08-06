@@ -2,6 +2,9 @@ name: docs
 
 on:
   pull_request:
+  push:
+    branches:
+      - quantum_SHO_ci_test
 
 jobs:
   build:
